@@ -24,7 +24,7 @@ DomElement.prototype.generateElement = function(){
         fontSize: ${this.fontSize}px;
         `
 
-        document.body.append(div)
+        document.body.append(div);
     }
     else if (this.selector[0] ==="#") {
         const p= document.createElement("p");
@@ -37,7 +37,7 @@ DomElement.prototype.generateElement = function(){
         fontSize: ${this.fontSize}px;
         `
 
-        document.body.append(p)
+        document.body.append(p);
     }
 
 }
